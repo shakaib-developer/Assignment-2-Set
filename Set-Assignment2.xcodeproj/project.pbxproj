@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10540CDF230EE2E100CDB0AF /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10540CDE230EE2E100CDB0AF /* SetGame.swift */; };
 		1083418E230D1E05003A8F1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083418D230D1E05003A8F1C /* AppDelegate.swift */; };
 		10834190230D1E05003A8F1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083418F230D1E05003A8F1C /* ViewController.swift */; };
 		10834193230D1E05003A8F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10834191230D1E05003A8F1C /* Main.storyboard */; };
 		10834195230D1E07003A8F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10834194230D1E07003A8F1C /* Assets.xcassets */; };
 		10834198230D1E07003A8F1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10834196230D1E07003A8F1C /* LaunchScreen.storyboard */; };
+		108341A1230D2A62003A8F1C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108341A0230D2A62003A8F1C /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10540CDE230EE2E100CDB0AF /* SetGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 		1083418A230D1E05003A8F1C /* Set-Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Set-Assignment2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1083418D230D1E05003A8F1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1083418F230D1E05003A8F1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		10834194230D1E07003A8F1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10834197230D1E07003A8F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10834199230D1E07003A8F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108341A0230D2A62003A8F1C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		1083418C230D1E05003A8F1C /* Set-Assignment2 */ = {
 			isa = PBXGroup;
 			children = (
-				1083418D230D1E05003A8F1C /* AppDelegate.swift */,
+				108341A0230D2A62003A8F1C /* Card.swift */,
+				10540CDE230EE2E100CDB0AF /* SetGame.swift */,
 				1083418F230D1E05003A8F1C /* ViewController.swift */,
 				10834191230D1E05003A8F1C /* Main.storyboard */,
-				10834194230D1E07003A8F1C /* Assets.xcassets */,
-				10834196230D1E07003A8F1C /* LaunchScreen.storyboard */,
+				1083419F230D1E2C003A8F1C /* Supporting FIles */,
 				10834199230D1E07003A8F1C /* Info.plist */,
 			);
 			path = "Set-Assignment2";
+			sourceTree = "<group>";
+		};
+		1083419F230D1E2C003A8F1C /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				1083418D230D1E05003A8F1C /* AppDelegate.swift */,
+				10834194230D1E07003A8F1C /* Assets.xcassets */,
+				10834196230D1E07003A8F1C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting FIles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10540CDF230EE2E100CDB0AF /* SetGame.swift in Sources */,
 				10834190230D1E05003A8F1C /* ViewController.swift in Sources */,
+				108341A1230D2A62003A8F1C /* Card.swift in Sources */,
 				1083418E230D1E05003A8F1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
